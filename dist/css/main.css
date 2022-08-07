@@ -301,22 +301,23 @@ body {
   background: linear-gradient(rgba(0, 142, 214, 0.6), rgba(0, 142, 214, 0.6)), url(../../images/img-22.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 120vh;
+  height: 100vh;
+  padding:5rem 0;
 }
 @media (max-width: 46.875em) {
   #registration-bg {
     background: linear-gradient(rgba(0, 142, 214, 0.6), rgba(0, 142, 214, 0.6)), url(../../images/img-small-22.jpg);
-    height: 120vh;
+    height: 100vh;
   }
 }
 @media (max-width: 37.5em) {
   #registration-bg {
-    height: 120vh;
+    height: 100vh;
   }
 }
 @media (max-width: 25em) {
   #registration-bg {
-    height: 120vh;
+    height: 100vh;
   }
 }
 
