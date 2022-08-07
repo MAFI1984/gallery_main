@@ -362,15 +362,15 @@ body {
 .form__input:focus:invalid {
   border-bottom: 0.3rem solid #f10101;
 }
-.form__input select, .form__input option {
+.form__input--select{
   font-size: 2rem;
    padding: 1.2rem 2rem;
 }
-.form__input[type=date] {
+.form__input--date {
   font-size: 1.5rem;
    padding: 1.2rem 2rem;
 }
-.form__input[type=submit] {
+.form__input--btn {
   text-transform: uppercase;
   font-size: 2rem;
   cursor: pointer;
