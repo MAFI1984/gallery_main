@@ -367,17 +367,17 @@ body {
    padding: 1.2rem 2rem;
 }
 .form__input--date {
-  font-size: 1.5rem;
-   padding: 1.2rem 2rem;
+  font-size: 1.5rem !important;
+   padding: 1.2rem 2rem !important;
 }
 .form__input--btn {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 2rem !important;
   cursor: pointer;
   transition: all 0.4s ease-in;
-   padding: 1.2rem 2rem;
+   padding: 1.2rem 2rem !important;
 }
-.form__input[type=submit]:hover {
+.form__input--btn:hover {
   background: #008ed6;
   color: #fff;
 }/*# sourceMappingURL=main.css.map */
