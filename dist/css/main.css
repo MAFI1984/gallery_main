@@ -106,12 +106,12 @@ body {
 @media (max-width: 46.875em) {
   #home-bg {
     background: linear-gradient(to bottom, rgba(252, 11, 144, 0.5), rgba(252, 11, 144, 0.5)), url(../../images/img-small-18.jpg);
-    min-height: 80vh;
+    min-height: 100vh;
   }
 }
 @media (max-width: 37.5em) {
   #home-bg {
-    min-height: 70vh;
+    min-height: 100vh;
   }
 }
 
@@ -297,17 +297,17 @@ body {
 @media (max-width: 46.875em) {
   #registration-bg {
     background: linear-gradient(rgba(0, 142, 214, 0.6), rgba(0, 142, 214, 0.6)), url(../../images/img-small-22.jpg);
-    height: 70%;
+    height: 100%;
   }
 }
 @media (max-width: 37.5em) {
   #registration-bg {
-    height: 50%;
+    height: 100%;
   }
 }
 @media (max-width: 25em) {
   #registration-bg {
-    height: 35%;
+    height: 100%;
   }
 }
 
