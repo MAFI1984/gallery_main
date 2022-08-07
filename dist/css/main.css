@@ -377,10 +377,15 @@ body {
 }
 .form__btn {
   text-transform: uppercase;
-  font-size: 2rem !important;
+  font-size: 2rem;
+  padding: 1.2rem 2rem;
+  border: none;
+  width: 100%;
+  opacity: 0.7;
+  box-shadow: 0.2rem 1rem 2rem rgba(0, 0, 0, 0.7);
   cursor: pointer;
   transition: all 0.4s ease-in;
-   padding: 1.2rem 2rem !important;
+
 }
 .form__btn:hover {
   background: #008ed6;
