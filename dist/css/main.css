@@ -302,7 +302,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  padding:5rem 0;
+
 }
 @media (max-width: 46.875em) {
   #registration-bg {
