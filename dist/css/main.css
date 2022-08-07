@@ -125,7 +125,7 @@ body {
 .content {
   display: flex;
   gap: 4rem;
-  padding: 5rem 0;
+  padding: 5rem 5rem;
 }
 @media (max-width: 37.5em) {
   .content {
@@ -263,6 +263,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   gap: 3rem;
+  padding:5rem 0;
 }
 @media (max-width: 56.25em) {
   .gallery {
@@ -299,22 +300,22 @@ body {
   background: linear-gradient(rgba(0, 142, 214, 0.6), rgba(0, 142, 214, 0.6)), url(../../images/img-22.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 100vh;
 }
 @media (max-width: 46.875em) {
   #registration-bg {
     background: linear-gradient(rgba(0, 142, 214, 0.6), rgba(0, 142, 214, 0.6)), url(../../images/img-small-22.jpg);
-    height: 100%;
+    height: 100vh;
   }
 }
 @media (max-width: 37.5em) {
   #registration-bg {
-    height: 100%;
+    height: 100vh;
   }
 }
 @media (max-width: 25em) {
   #registration-bg {
-    height: 100%;
+    height: 100vh;
   }
 }
 
